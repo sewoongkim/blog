@@ -1,0 +1,14 @@
+package com.cos.blog.domain.user.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+public class UpdateReqDto {
+
+	private String password;
+	private String email;
+	private String address;
+}
